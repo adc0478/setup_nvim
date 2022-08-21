@@ -1,0 +1,11 @@
+Previamente debo tener npm, composer, php
+Neovin
+plugin completion
+plugin treesister
+plugin treesister playgound
+plugin telescope
+plugin lsp-config
+plugin neovin-lsp-installer
+
+
+
