@@ -74,16 +74,16 @@ use {
     "williamboman/nvim-lsp-installer",
     "neovim/nvim-lspconfig",
 }
-use{
-  'hrsh7th/nvim-cmp',
-  requires = {
-    'hrsh7th/cmp-nvim-lsp',
-    'hrsh7th/cmp-buffer',
-    'hrsh7th/cmp-path',
-    'hrsh7th/cmp-cmdline',
-    'quangnguyen30192/cmp-nvim-ultisnips'
-  }
-}
+--use{
+  --'hrsh7th/nvim-cmp',
+  --requires = {
+   -- 'hrsh7th/cmp-nvim-lsp',
+    --'hrsh7th/cmp-buffer',
+    --'hrsh7th/cmp-path',
+   -- 'hrsh7th/cmp-cmdline',
+    --'quangnguyen30192/cmp-nvim-ultisnips'
+  --}
+--}
 use{
   'SirVer/ultisnips',
   requires = {
@@ -97,5 +97,12 @@ use 'jwalton512/vim-blade'
 use 'kyazdani42/nvim-web-devicons'
 use {'neoclide/coc.nvim', branch = 'release'}
 use 'jeetsukumaran/vim-buffergator'
+use 'https://github.com/kezhenxu94/vim-mysql-plugin.git'
+use 'arnaud-lb/vim-php-namespace'
+use '2072/PHP-Indenting-for-VIm'
+use 'Yggdroot/indentLine'
+use 'mattn/emmet-vim'
 
+
+ 
 end)
